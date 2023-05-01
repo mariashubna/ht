@@ -1,0 +1,119 @@
+body {
+background: url(https://www.crushpixel.com/big-static15/preview4/old-grunge-dark-textured-wooden-1898694.jpg);
+}
+.home-section {		
+	max-width: 1200px; максимальна ширина контенту
+	margin: auto; вирівняти блок по центру сторінку	
+}
+
+.left, .right { 
+	height: 1200px;
+}
+.name {
+	width: 10em;
+    height: 10em;
+    margin-top: 10px;
+    margin: 20px;
+}
+p {
+	margin-left: 35px;
+	color: saddlebrown;
+}
+ul {
+	text-align:justify;
+	padding-right: 40px;
+	padding-left: 60px;
+    line-height: 20px;
+}
+hr {
+    background-color: saddlebrown; /* Цвет линии */
+    color: saddlebrown; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    line-height: 10px;
+   }
+.round {
+    width: 10em;
+    height: 10em;
+    border: 2px solid saddlebrown;
+    border-radius: 50%;
+    line-height: 4em;  /* подробнее про line-height */
+    text-align: center;  /* выравнять текст по середине по горизонтали */
+    background: #decdc5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 18px;
+}
+
+#title1  {
+    line-height: 10px;
+    margin-left: 35px;
+    color: saddlebrown;
+	}
+#title2 {
+    line-height: 1px;
+}
+#title, #title1, #title2 {
+	word-spacing: 5px;
+    letter-spacing: 8px;
+    margin-left: 35px;
+    color: saddlebrown;
+}
+.left { 
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: #decdc5;
+}
+.right { 
+	display: inline-block;
+	vertical-align: top;
+	width: 69%;
+	background: #f4f4f4;
+}
+h1 {
+	font-family: PALATINO LINOTYPE;
+	font-size: 60px;
+	line-height: 0.8;
+	color: saddlebrown;
+	margin-bottom: -25px;
+	letter-spacing: 10px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+h3 {
+	color: saddlebrown;
+	font-size: 25px; 
+	line-height: 60px;
+	letter-spacing: 7px;
+
+} 
+}
+h4 {
+	color: saddlebrown;
+	font-size: 20px;  
+}
+h2 {
+	color: saddlebrown;
+	font-size: 60px;
+}
+table {
+    width: 100%;
+}
+#left {
+    text-align: left;
+}
+ .right {
+ 	position: relative;
+ 	z-index: 0;
+ }
+.signature-img {
+	position: absolute;
+ 	z-index: 1;
+	width: 100px;
+	top: 87%;
+ 	right: 0;
+ 	left: 40%;
+}
+
+
